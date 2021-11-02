@@ -1,12 +1,13 @@
 import './App.css';
 import Header from './Header';
+import ProfileCards from './ProfileCards';
 
 function App() {
   return (
     <div className="app">
       <Header />
-      {/* header */}
       {/* profile Card */}
+      <ProfileCards />
 
     </div>
   );
