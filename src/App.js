@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import ProfileCards from './ProfileCards';
+import SwipeButtons from './SwipeButtons';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       {/* profile Card */}
       <ProfileCards />
+      <SwipeButtons />
 
     </div>
   );
